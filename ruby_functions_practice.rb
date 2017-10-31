@@ -56,3 +56,12 @@ end
 def volume_of_cube(side_length)
   return side_length ** 3
 end
+
+def volume_of_sphere(radius)
+  volume = (4 * 3.14 * radius ** 3)/3
+  return volume
+end
+
+def fahrenheit_to_celsius(temp)
+   return (temp.to_i - 32) / 1.8
+ end
