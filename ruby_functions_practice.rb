@@ -41,3 +41,14 @@ when 9
   return "September"
 end
 end
+
+def number_to_short_month_name(month)
+case month
+when 1
+  return "Jan"
+when 3
+  return "Mar"
+when 9
+  return "Sep"
+end
+end
